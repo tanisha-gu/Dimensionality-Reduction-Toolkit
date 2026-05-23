@@ -337,8 +337,4 @@ def load_my_data():
 DATASETS["my_data"] = load_my_data
 ```
 
----
 
-## License
-
-MIT License — free to use, modify, and distribute.
