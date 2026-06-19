@@ -1,10 +1,10 @@
-# 🔬 Dimensionality Reduction — Full Python Project
+#  Dimensionality Reduction — Full Python Project
 
 > A complete, production-grade toolkit for exploring, comparing, and evaluating dimensionality reduction techniques on any tabular dataset.
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 1. [Overview](#overview)
 2. [Algorithms Implemented](#algorithms-implemented)
