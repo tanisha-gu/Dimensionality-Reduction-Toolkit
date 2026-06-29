@@ -36,7 +36,6 @@ def load_swiss_roll(n_samples=1500, noise=0.1):
     labels = (t / t.max() * 4).astype(int)
     return X, labels, ["x", "y", "z"], None
 
-
 def load_s_curve(n_samples=1500, noise=0.1):
     X, t = make_s_curve(n_samples=n_samples, noise=noise, random_state=42)
     labels = (t / t.max() * 4).astype(int)
@@ -54,8 +53,7 @@ def load_from_csv(path: str, label_col: str = None):
         X = df.values
         feature_names = list(df.columns)
     return X, y, feature_names, None
-
-
+#here we have data sets
 DATASETS = {
     "iris": load_iris_data,
     "wine": load_wine_data,
